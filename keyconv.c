@@ -942,7 +942,7 @@ main(int argc, char **argv)
 			else
 			if (strcmp(optarg, "AXE")== 0) {
 				fprintf(stderr,
-					"Decrypting AXE Address\n");
+					"Decrypting Axe Address\n");
 					addrtype_opt = 75;
 					privtype_opt = 203;
 					break;
