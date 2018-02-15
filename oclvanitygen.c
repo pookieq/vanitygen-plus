@@ -206,6 +206,7 @@ main(int argc, char **argv)
 					"GAP : Gapcoin : G\n"
 					"GCR : Global Currency Reserve : G\n"
 					"GRC : GridcoinResearch : R or S\n"
+					"GRLC : Garlicoin : G\n"
 					"GRS : Groestlcoin : F\n"
 					"GUN : Guncoin : G or H\n"
 					"HAM : HamRadiocoin : 1\n"
@@ -221,6 +222,7 @@ main(int argc, char **argv)
 					"MUE : Monetary Unit : 7\n"
 					"MYRIAD : Myriadcoin : M\n"
 					"MZC : Mazacoin : M\n"
+					"NEET : NEETCOIN : N\n"
 					"NEOS : Neoscoin : S\n"
 					"NLG : Gulden : G\n"
 					"NMC : Namecoin : M or N\n"
@@ -241,6 +243,7 @@ main(int argc, char **argv)
 					"RBY : Rubycoin : R\n"
 					"RDD : Reddcoin : R\n"
 					"RIC : Riecoin : R\n"
+					"ROI : ROIcoin : R\n"
 					"SCA : Scamcoin : S\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
@@ -423,7 +426,7 @@ main(int argc, char **argv)
 				fprintf(stderr,
 					"Generating SKC Address\n");
 					addrtype = 63;
-					privtype = 191;
+					privtype = 226;
 					break;
 			}
 			else
@@ -456,6 +459,14 @@ main(int argc, char **argv)
 					"Generating LEAF Address\n");
 					addrtype = 95;
 					privtype = 223;
+					break;
+			}
+			else
+			if (strcmp(optarg, "ROI")== 0) {
+				fprintf(stderr,
+					"Generating ROI Address\n");
+					addrtype = 60;
+					privtype = 128;
 					break;
 			}
 			else
@@ -971,6 +982,14 @@ main(int argc, char **argv)
 					break;
 			}
 			else
+			if (strcmp(optarg, "GRLC")== 0) {
+				fprintf(stderr,
+					"Generating GRLC Address\n");
+					addrtype = 38;
+					privtype = 176;
+					break;
+			}
+			else
 			if (strcmp(optarg, "NMC")== 0) {
 				fprintf(stderr,
 					"Generating NMC Address\n");
@@ -1024,6 +1043,14 @@ main(int argc, char **argv)
 					"Generating BitZeny Address\n");
 					addrtype = 81;
 					privtype = 128;
+					break;
+			}
+			else
+			if (strcmp(optarg, "NEET")== 0) {
+				fprintf(stderr,
+					"Generating NEETCOIN Address\n");
+					addrtype = 53;
+					privtype = 181;
 					break;
 			}
 			break;

@@ -173,6 +173,7 @@ Current List of Available Coins for Address Generation
 |GAP | Gapcoin | G  |
 |GCR | Global Currency Reserve | G  |
 |GRC | GridcoinResearch | R or S  |
+|GRLC | Garlicoin | G  |
 |GRS | Groestlcoin | F  |
 |GUN | Guncoin | G or H  |
 |HAM | HamRadiocoin | 1  |
@@ -188,6 +189,7 @@ Current List of Available Coins for Address Generation
 |MUE | Monetary Unit | 7  |
 |MYRIAD | Myriadcoin | M  |
 |MZC | Mazacoin | M  |
+|NEET | NEETCOIN | N  |
 |NEOS | Neoscoin | S  |
 |NLG | Gulden | G  |
 |NMC | Namecoin | M or N  |
@@ -208,6 +210,7 @@ Current List of Available Coins for Address Generation
 |RBY | Rubycoin | R  |
 |RDD | Reddcoin | R  |
 |RIC | Riecoin | R  |
+|ROI | ROIcoin | R  |
 |SCA | Scamcoin | S  |
 |SDC | Shadowcoin | S  |
 |SKC | Skeincoin | S  |
@@ -249,3 +252,4 @@ Current List of Available Coins for Address Generation
  * Donate PinkCoin: 2Give7s6EDxWCqj8F5fjrDrW8UcqbWboWn  
  * Donate GameCredits: Game1iVhBWDMvAUvJNHu3FQdEvEKLGKtSe  
  * Donate Crown: 1CRoWN8eNVfMjzVFuDybBsUaWd3zvBuXD7  
+ * Donate Skeincoin: SUPerRFr4ZLW5D8ScbjjPW4aAq5cacwvY9  

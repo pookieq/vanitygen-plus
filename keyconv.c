@@ -127,6 +127,7 @@ main(int argc, char **argv)
 					"GAP : Gapcoin : G\n"
 					"GCR : Global Currency Reserve : G\n"
 					"GRC : GridcoinResearch : R or S\n"
+					"GRLC : Garlicoin : G\n"
 					"GRS : Groestlcoin : F\n"
 					"GUN : Guncoin : G or H\n"
 					"HAM : HamRadiocoin : 1\n"
@@ -144,6 +145,7 @@ main(int argc, char **argv)
 					"MZC : Mazacoin : M\n"
 					"NEOS : Neoscoin : S\n"
 					"NLG : Gulden : G\n"
+					"NEET : NEETCOIN : N\n"
 					"NMC : Namecoin : M or N\n"
 					"NVC : Novacoin : 4\n"
 					"NYAN : Nyancoin : K\n"
@@ -162,6 +164,7 @@ main(int argc, char **argv)
 					"RBY : Rubycoin : R\n"
 					"RDD : Reddcoin : R\n"
 					"RIC : Riecoin : R\n"
+					"ROI : ROIcoin : R\n"
 					"SCA : Scamcoin : S\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
@@ -351,7 +354,7 @@ main(int argc, char **argv)
 				fprintf(stderr,
 					"Decrypting SKC Address\n");
 					addrtype_opt = 63;
-					privtype_opt = 191;
+					privtype_opt = 226;
 					break;
 			}
 			else
@@ -392,6 +395,14 @@ main(int argc, char **argv)
 					"Decrypting HODL Address\n");
 					addrtype_opt = 40;
 					privtype_opt = 168;
+					break;
+			}
+			else
+			if (strcmp(optarg, "ROI")== 0) {
+				fprintf(stderr,
+					"Decrypting ROI Address\n");
+					addrtype_opt = 60;
+					privtype_opt = 128;
 					break;
 			}
 			else
@@ -900,6 +911,14 @@ main(int argc, char **argv)
 					break;
 			}
 			else
+			if (strcmp(optarg, "GRLC")== 0) {
+				fprintf(stderr,
+					"Decrypting GRLC Address\n");
+					addrtype_opt = 38;
+					privtype_opt = 176;
+					break;
+			}
+			else
 			if (strcmp(optarg, "NMC")== 0) {
 				fprintf(stderr,
 					"Decrypting NMC Address\n");
@@ -953,6 +972,14 @@ main(int argc, char **argv)
 					"Decrypting BitZeny Address\n");
 					addrtype_opt = 81;
 					privtype_opt = 128;
+					break;
+			}
+			else
+			if (strcmp(optarg, "NEET")== 0) {
+				fprintf(stderr,
+					"Decrypting NEETCOIN Address\n");
+					addrtype_opt = 53;
+					privtype_opt = 181;
 					break;
 			}
 			break;
