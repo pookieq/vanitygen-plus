@@ -156,6 +156,7 @@ Current List of Available Coins for Address Generation
 |CRW | Crown | 1  |
 |DASH | Dash | X  |
 |DEEPONION | DeepOnion | D  |
+|DNR | Denarius | D  |
 |DGB | Digibyte | D  |
 |DGC | Digitalcoin | D  |
 |DMD | Diamond | d  |
@@ -181,6 +182,7 @@ Current List of Available Coins for Address Generation
 |HODL | HOdlcoin | H  |
 |IXC | Ixcoin | x  |
 |JBS | Jumbucks | J  |
+|JIN | Jincoin | J  |
 |LBRY | LBRY | b  |
 |LEAF | Leafcoin | f  |
 |LTC | Litecoin | L  |

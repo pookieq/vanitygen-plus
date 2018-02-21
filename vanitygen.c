@@ -435,6 +435,7 @@ main(int argc, char **argv)
 					"CRW : Crown : 1\n"
 					"DASH : Dash : X\n"
 					"DEEPONION : DeepOnion : D\n"
+					"DNR: Denarius: D\n"
 					"DGB : Digibyte : D\n"
 					"DGC : Digitalcoin : D\n"
 					"DMD : Diamond : d\n"
@@ -460,6 +461,7 @@ main(int argc, char **argv)
 					"HODL : HOdlcoin : H\n"
 					"IXC : Ixcoin : x\n"
 					"JBS : Jumbucks : J\n"
+					"JIN : Jincoin : J\n"
 					"LBRY : LBRY : b\n"
 					"LEAF : Leafcoin : f\n"
 					"LTC : Litecoin : L\n"
@@ -536,6 +538,14 @@ main(int argc, char **argv)
 					"Generating DEEPONION Address\n");
 					addrtype = 31;
 					privtype = 159;
+					break;
+			}
+			else
+			if (strcmp(optarg, "DNR")== 0) {
+				fprintf(stderr,
+					"Generating DNR Address\n");
+					addrtype = 30;
+					privtype = 158;
 					break;
 			}
 			else
@@ -1071,6 +1081,14 @@ main(int argc, char **argv)
 			if (strcmp(optarg, "JBS")== 0) {
 				fprintf(stderr,
 					"Generating JBS Address\n");
+					addrtype = 43;
+					privtype = 171;
+					break;
+			}
+			else
+			if (strcmp(optarg, "JIN")== 0) {
+				fprintf(stderr,
+					"Generating JIN Address\n");
 					addrtype = 43;
 					privtype = 171;
 					break;
